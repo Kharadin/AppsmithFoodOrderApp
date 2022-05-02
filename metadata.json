@@ -32,6 +32,14 @@
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
+    "Zip food delivery_auto_run.myFun1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Zip food delivery_auto_run.myFun2": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
     "Zip food delivery_delete_order": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false

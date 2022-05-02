@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1080,
+          "bottomRow": 910,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -33,7 +33,7 @@
               "displayName": "Container",
               "iconSVG": "/static/media/icon.1977dca3.svg",
               "topRow": 13,
-              "bottomRow": 80,
+              "bottomRow": 89,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -49,7 +49,7 @@
                   "widgetId": "orw6k9mkyk",
                   "containerStyle": "none",
                   "topRow": 0,
-                  "bottomRow": 630,
+                  "bottomRow": 760,
                   "parentRowSpace": 1,
                   "isVisible": true,
                   "type": "CANVAS_WIDGET",
@@ -192,7 +192,7 @@
                       "displayName": "Table",
                       "iconSVG": "/static/media/icon.db8a9cbd.svg",
                       "topRow": 6,
-                      "bottomRow": 61,
+                      "bottomRow": 74,
                       "isSortable": true,
                       "parentRowSpace": 10,
                       "onPageChange": "{{fetch_orders.run();\nfetch_user.run();fetch_products.run()}}",
@@ -1790,7 +1790,7 @@
               "displayName": "Container",
               "iconSVG": "/static/media/icon.1977dca3.svg",
               "topRow": 31,
-              "bottomRow": 106,
+              "bottomRow": 89,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -3120,6 +3120,20 @@
               "confirmBeforeExecute": false,
               "pluginType": "SAAS",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Zip food delivery_auto_run.myFun2",
+              "name": "auto_run.myFun2",
+              "collectionId": "Zip food delivery_auto_run",
+              "clientSideExecution": true,
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n\tawait\tfetch_products.run()\n\t}"
+              ],
               "timeoutInMillisecond": 10000
             }
           ],
